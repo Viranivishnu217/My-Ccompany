@@ -1,0 +1,61 @@
+@media screen and (max-width:1024px) {
+
+    .bar {
+        display: block;
+        padding-right: 50px;
+        cursor: pointer;
+        color:solid white;
+    }
+
+    .header-left {
+        display: none;
+    }
+
+    .header-content{
+        flex-wrap: wrap;
+        flex-direction:column-reverse;
+        padding-inline:50px;
+    }
+.about-section{
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.about{
+    margin-top:30px;
+}
+.service-title{
+    text-align:center;
+}
+
+.services{
+    flex-wrap:wrap;
+    padding-left:50px;
+    align-items: center;
+    justify-content: center;
+}
+.service-img{
+    align-items:center;
+    justify-content: center;
+    width:75%;
+    height:400px;
+}
+.service-body{
+    margin-bottom:30px;
+}
+.founder-quote{
+    max-width: 85%;
+}
+
+.btn{
+   display:flex;
+   align-items: center;
+   justify-content: center;
+}
+
+
+
+
+
+
+
+}
